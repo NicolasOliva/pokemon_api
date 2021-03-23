@@ -5,14 +5,14 @@ Pokemon api that return pokemons by limit or name
 
 ```bash
 GET / # return pokemons through limit and offset parameters
-GET /:name # return pokemons through of name pokemon
+GET /:name # return pokemons through the name of the pokemon
 ```
 
 ## Getting Started
 
 ### Clone the repo:
 ```sh
-git clone git clone https://github.com/NicolasOliva/pokemon_api
+git clone https://github.com/NicolasOliva/pokemon_api
 cd pokemon_api
 ```
 ### Install dependencies:
