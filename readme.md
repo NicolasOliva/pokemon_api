@@ -41,6 +41,11 @@ GET /:name # return pokemons through the name of the pokemon
 
 ## Second load Client
 
+(On another console)
+```sh
+cd pokemon_api
+```
+
 ### Install dependencies:
 ```sh
 cd client
