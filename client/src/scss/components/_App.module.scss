@@ -1,0 +1,15 @@
+@import '../utils/responsive';
+
+.Logo {
+    width: 30em;
+
+    @include responsive (small) {
+        width: 15em;
+    }
+
+}
+
+.Spinner {
+    display: flex!important;
+    margin: 4em auto;
+}

@@ -1,0 +1,67 @@
+@import '../utils/variables';
+@import '../utils/extends';
+@import '../utils/responsive';
+
+.box {
+    @extend %box;
+    justify-content: space-between;
+    
+    @include responsive (small) {
+        margin: 0 1em!important;
+    }
+}
+
+.boxParams {
+    background-color: $gray;
+    padding-left: 5em;
+
+    h3 {
+        font-weight: bold;
+        margin-bottom: .8em;
+
+        @include responsive (small) {
+            margin: 0;
+        }
+    }
+
+    .Params {
+        display: flex;
+        background: transparent;
+
+        @include responsive (small) {
+            display: block;
+            margin-bottom: 2em;
+
+            label {
+                margin: 1em 0!important;
+            }
+        }
+
+        p {
+            padding: .5em .6em 0 0;
+            margin: 0px;
+        }
+    
+        label {
+            display: flex;
+            margin: 0px;
+        }
+    }
+
+    @include responsive (small) {
+        &:last-child {
+            .Params {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}
+
+.inputLoad {
+    width: 24%!important;
+}
+
+.inputSearch {
+    width: 45%!important;
+}

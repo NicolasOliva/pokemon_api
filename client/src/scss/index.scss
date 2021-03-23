@@ -1,0 +1,11 @@
+// components
+@import './components/_App.module.scss';
+@import './components/Params.module.scss';
+@import './components/Pokemons.module.scss';
+@import './components/Pokemon.module.scss';
+
+//utils
+@import './utils/global.scss';
+@import './utils/variables.scss';
+@import './utils/extends.scss';
+@import './utils/responsive.scss';
